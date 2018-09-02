@@ -35,3 +35,10 @@ li.navBarLI a:hover {
     border-radius: 8px;
     width: 15%;
 }
+
+.contentContainer {
+  position: relative;
+  margin-left: 100px;
+  box-sizing: border-box;
+  text-align: left;
+}
