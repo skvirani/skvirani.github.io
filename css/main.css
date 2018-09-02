@@ -3,7 +3,7 @@ ul.navBarUL {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #4B5658;
 }
 
 li.navBarLI {
@@ -21,4 +21,17 @@ li.navBarLI a {
 /* Change the link color to #111 (black) on hover */
 li.navBarLI a:hover {
     background-color: #111;
+}
+
+.resumeButton {
+    background-color: #4B5658;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 8px;
+    width: 15%;
 }

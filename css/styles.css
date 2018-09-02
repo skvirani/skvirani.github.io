@@ -55,6 +55,12 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main > .bodytext {
+	font-size: 1em;
+	margin: 1em 0;
+	font-weight: 50;
+}
+
 .icons-social i {
 	padding: 10px;
 }
