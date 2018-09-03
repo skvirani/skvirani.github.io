@@ -43,19 +43,19 @@ main {
 	text-align: center;
 }
 
-main > .intro {
+.intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
-main > .tagline {
+.tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 50;
 }
 
-main > .bodytext {
+.bodytext {
 	font-size: 1em;
 	margin: 1em 0;
 	font-weight: 50;

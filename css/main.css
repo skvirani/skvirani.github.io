@@ -42,3 +42,42 @@ li.navBarLI a:hover {
   box-sizing: border-box;
   text-align: left;
 }
+
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #4B5658;
+  width: 100%;
+  height: 50px;
+}
+
+#Home {
+  padding-top: 100px;
+  height: 1000px;
+}
+
+#About {
+  padding-top: 100px;
+  height: 1000px;
+}
+
+#Experience {
+  padding-top: 100px;
+  height: 1000px;
+}
+
+#Projects {
+  padding-top: 100px;
+  height: 1000px;
+}
+
+#Skills {
+  padding-top: 100px;
+  height: 1000px;
+}
+
+#Contact {
+  padding-top: 100px;
+  height: 1000px;
+}

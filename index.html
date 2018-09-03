@@ -28,6 +28,7 @@
 	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
 </head>
 <body>
+	<div id="header">
 	<ul class="navBarUL">
 	  <li class="navBarLI"><a href="#Home">Home</a></li>
 	  <li class="navBarLI"><a href="#About">About</a></li>
@@ -36,49 +37,65 @@
 		<li class="navBarLI"><a href="#Skills">Skills</a></li>
 	  <li class="navBarLI"><a href="#Contact">Contact</a></li>
 	</ul>
+</div>
 	<main>
-		<div class="intro" id="Home">Hello, I'm Samad!</div>
+		<span id="Home">
+		<div class="intro smooth">Hello, I'm Samad!</div>
 		<div class="tagline">Full Stack Developer | Code Fanatic | Problem Solver | Linux Hacker</div>
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
 		<div class="icons-social">
 			<a target="_blank" href="https://github.com/skvirani"><i class="fab fa-github"></i></a>
 			<!-- <a target="_blank" href="https://twitter.com/skvirani"><i class="fab fa-twitter"></i></a>  <- WHEN I GET ONE-->
 			<!-- <a target="_blank" href="https://stackoverflow.com/story/flexdinesh"><i class="fab fa-stack-overflow"></i></a> -->
-			<a target="_blank" href="https://www.linkedin.com/in/samadvirani"><i class="fab fa-linkedin"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/samadkvirani"><i class="fab fa-linkedin"></i></a>
 			<!-- <a target="_blank" href="https://medium.com/@flexdinesh"><i class="fab fa-medium"></i></a> -->
 			<!-- <a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a> -->
 			<!-- <a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a> -->
 			<!-- <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
     </div>
+	</span>
+
 
 <!-- ABOUT PAGE -->
-		<div id="About">
+		<div id="About" class="smooth">
 			<div class="tagline"><h2><b>About me</b></h2></div>
-			<div class="bodytext"><p>My name is Samad Karim Virani. I am currently a senior pursuing my Bachelor's in Computer Science at the University of Houston! Go Cougs!</p></div>
+			<div class="bodytext"><p>My name is Samad Karim Virani. I am currently a senior pursuing my Bachelor's in Computer Science at the University of Houston! Go Cougs! I love learning new things and thrive in environments where I am challenged.</p></div>
 			<a href="/files/Samad_K_Virani_Resume.pdf" class="resumeButton">Download Resume</a>
 		</div>
 
 <!-- EXPERIENCE PAGE -->
-		<div id="Experience">
+		<div id="Experience" class="smooth">
 			<div class="tagline"><h2><b>My experiences</b><h2></div>
 		</div>
 
 <!-- PROJECTS PAGE -->
-		<div id="Projects">
+		<div id="Projects" class="smooth">
 			<div class="tagline"><h2><b>My projects</b><h2></div>
 			<div class="tagline"></div>
 		</div>
 
 <!-- SKILLS PAGE -->
-		<div id="Skills">
+		<div id="Skills" class="smooth">
 			<div class="tagline"><h2><b>My skills</b><h2></div>
 		</div>
 
 <!-- CONTACT PAGE -->
-		<div id="Contact">
+		<div id="Contact" class="smooth">
 			<div class="tagline"><h2><b>Contact me</b></h2></div>
 			<div class="bodytext">Feel free to shoot me an email at <a href="mailto:me@samadkvirani.com">me@samadkvirani.com</a> if you've got any questions! I'd love to talk to you about anything, from life, to code, to favorite foods, to whatever you want! Check out my GitHub or LinkedIn if you're interested! Thanks for visiting my website :)</div>
 		</div>
 	</main>
 </body>
+
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+
+    return false;
+});
+</script>
 </html>
