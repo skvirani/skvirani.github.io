@@ -3,7 +3,7 @@ ul.navBarUL {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4B5658;
+    background-color: #3db0c0;
 }
 
 li.navBarLI {
@@ -12,7 +12,7 @@ li.navBarLI {
 
 li.navBarLI a {
     display: block;
-    color: #EDEDED;
+    color: #fafafa;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,7 +20,8 @@ li.navBarLI a {
 
 /* Change the link color to #111 (black) on hover */
 li.navBarLI a:hover {
-    background-color: #111;
+    background-color: #fafafa;
+    color: #3db0c0;
 }
 
 li.navBarLI a:active {
@@ -29,16 +30,24 @@ li.navBarLI a:active {
 }
 
 .resumeButton {
-    background-color: #4B5658;
+    /* background-color: #4B5658; */
+    background-color: #fafafa;
     border: none;
-    color: white;
+    color: #3db0c0;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     padding: 15px 10px;
     border-radius: 8px;
-    width: 15%;
+    width: 25%;
+}
+
+.boldedP {
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .contentContainer {
@@ -58,31 +67,36 @@ li.navBarLI a:active {
 }
 
 #Home {
-  padding-top: 100px;
+  padding-top: 175px;
   height: 1000px;
 }
 
 #About {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   height: 1000px;
+  padding: 6.25em 12.5em 0em 12.5em;
 }
 
 #Experience {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   height: 1000px;
+  padding: 6.25em 12.5em 0em 12.5em;
 }
 
 #Projects {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   height: 1000px;
+  padding: 6.25em 12.5em 0em 12.5em;
 }
 
 #Skills {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   height: 1000px;
+  padding: 6.25em 12.5em 0em 12.5em;
 }
 
 #Contact {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   height: 1000px;
+  padding: 6.25em 12.5em 0em 12.5em;
 }
