@@ -12,7 +12,7 @@ li.navBarLI {
 
 li.navBarLI a {
     display: block;
-    color: white;
+    color: #EDEDED;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -21,6 +21,11 @@ li.navBarLI a {
 /* Change the link color to #111 (black) on hover */
 li.navBarLI a:hover {
     background-color: #111;
+}
+
+li.navBarLI a:active {
+    color: white;
+    font-weight: bold;
 }
 
 .resumeButton {
