@@ -24,9 +24,9 @@ li.navBarLI a:hover {
     color: #3db0c0;
 }
 
-li.navBarLI a:active {
-    color: white;
-    font-weight: bold;
+.activeNav {
+    background-color: #fafafa;
+    color: #3db0c0;
 }
 
 .resumeButton {

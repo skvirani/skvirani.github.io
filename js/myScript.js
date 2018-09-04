@@ -6,10 +6,13 @@ $(document).ready(function(){
       event.preventDefault();
       //store hash
       var hash = this.hash;
+      // this.hash.addClass('activeNav');
       //use jQuery animate() method
       $('html, body').animate({ scrollTop:$(hash).offset().top}, 800, function(){
         window.location.hash = hash;
+        // this.addClass('activeNav');
       });
+      // $("a.smoothScroll").addClass('activeNav');
     } //end if
   });
 });
