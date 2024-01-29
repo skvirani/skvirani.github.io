@@ -79,6 +79,7 @@ export const RESUME_DATA = {
       title: "YouTube Clone",
       techStack: [
         "Side Project",
+        "In Progress",
         "TypeScript",
         "React",
         "Next.js",
@@ -106,6 +107,10 @@ export const RESUME_DATA = {
       description:
         "Volunteered as a judge for various hackathons including HackRice and JPMC Code For Good.",
       logo: null,
+      link: {
+        label: "Code For Good",
+        href: "https://careers.jpmorgan.com/us/en/students/programs/code-for-good?search=&tags=location__Americas__UnitedStatesofAmerica"
+      }
     },
   ],
 } as const;
