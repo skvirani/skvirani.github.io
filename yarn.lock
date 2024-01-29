@@ -577,7 +577,7 @@
 
 "@vercel/analytics@^1.1.2":
   version "1.1.2"
-  resolved "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.1.2.tgz"
+  resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-1.1.2.tgz#7e3a863abca5cb276a8e7783dc8a32689cb769bb"
   integrity sha512-CodhkLCQ/EHzjX8k+Qg+OzTBY0UadykrcfolfSOJVZZY/ZJM5nbhztm9KdbYvMfqKlasAr1+OYy0ThZnDA/MYA==
   dependencies:
     server-only "^0.0.1"
