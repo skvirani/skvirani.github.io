@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Houston, Texas, USA",
   locationLink: "https://www.google.com/maps/place/Houston",
   about: "Full Stack Engineer",
-  summary:  "As a Full Stack Engineer, I have successfully led multiple initiatives to completion. I lead a team of engineers, establishing a workplace where people feel comfortable trying new things, making mistakes and taking risks all to make the best product we can. I currently work with Java, Springboot, Typescript, React and Oracle SQL. I have over 5 years of experience building scalable full stack applications in the Finance industry.",
+  summary:  "As a Full Stack Engineer, I have successfully led multiple initiatives to completion. I lead a team of engineers, establishing a workplace where people feel comfortable trying new things, making mistakes and taking risks all to make the best product we can. I currently work with Java, Springboot, Typescript, React and Oracle SQL. I have over 5 years of experience building scalable full stack applications in the Fin-Tech industry.",
   avatarUrl: "https://avatars.githubusercontent.com/u/22201043?v=4",
   personalWebsiteUrl: "https://samadkvirani.com",
   contact: {
@@ -42,7 +42,7 @@ export const RESUME_DATA = {
       logo: ChaseIcon,
       start: "2021",
       end: "Present",
-      description: "Implemented a dynamic survey tool. Built out a platform for other teams to deploy their micro frontends. Designed and developed a metadata driven SQL queriy generation, reducing delivery time from 1 week to 4 hours. Led squad of new joiners."
+      description: "Implemented a dynamic survey tool. Built out a platform for other teams to deploy their micro frontends. Designed and developed a metadata driven SQL query generation, reducing delivery time from 1 week to 4 hours. Led squad of new joiners."
     },
     {
       company: "JPMorgan Chase & Co.",
