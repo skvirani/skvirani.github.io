@@ -66,6 +66,13 @@ export const CommandMenu = ({ links }: Props) => {
             >
               <span>Print</span>
             </CommandItem>
+            <CommandItem
+              onSelect={() => {
+                setOpen(false);
+              }}
+            >
+              <span><a href={"/files/Samad_Virani_Resume.pdf"} download={"Samad_Virani_Resume.pdf"}>Download Resume</a></span>
+            </CommandItem>
           </CommandGroup>
           <CommandGroup heading="Links">
             {links.map(({ url, title }) => (
