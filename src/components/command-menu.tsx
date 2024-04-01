@@ -33,6 +33,14 @@ export const CommandMenu = ({ links }: Props) => {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
+  const downloadResume = () => {
+    const element = document.createElement("a");
+    element.href = "/files/Samad_Virani_Resume.pdf";
+    element.download = "Samad_Virani_Reusme.pdf";
+    document.body.appendChild(element);
+    element.click();
+  };
+
   return (
     <>
       <p className="fixed bottom-0 left-0 right-0 hidden border-t border-t-muted bg-white p-1 text-center text-sm text-muted-foreground print:hidden xl:block">
@@ -69,9 +77,10 @@ export const CommandMenu = ({ links }: Props) => {
             <CommandItem
               onSelect={() => {
                 setOpen(false);
+                downloadResume();
               }}
             >
-              <span><a href={"/files/Samad_Virani_Resume.pdf"} download={"Samad_Virani_Resume.pdf"}>Download Resume</a></span>
+              <span>Download Resume</span>
             </CommandItem>
           </CommandGroup>
           <CommandGroup heading="Links">
