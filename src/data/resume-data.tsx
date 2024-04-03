@@ -5,8 +5,8 @@ export const RESUME_DATA = {
   initials: "SKV",
   location: "Houston, Texas, USA",
   locationLink: "https://www.google.com/maps/place/Houston",
-  about: "Full Stack Engineer",
-  summary:  "Seasoned Full Stack Engineer driving successful project initiatives and fostering an innovative workplace culture. Proficient in Java, Typescript, React, Spring Boot, and Oracle SQL, with over 5 years of expertise crafting scalable solutions in the Fin-Tech sector.",
+  about: "Full-Stack Engineer",
+  summary:  "Seasoned Full-Stack Engineer driving successful project initiatives and fostering an innovative workplace culture. Proficient in Java, Typescript, React, Spring Boot, and Oracle SQL, with over 5 years of expertise crafting scalable solutions in the Fin-Tech sector.",
   avatarUrl: "https://avatars.githubusercontent.com/u/22201043?v=4",
   personalWebsiteUrl: "https://samadkvirani.com",
   contact: {
@@ -42,7 +42,7 @@ export const RESUME_DATA = {
       logo: ChaseIcon,
       start: "2021",
       end: "Present",
-      description: "Accomplished Full Stack Developer: Crafted a dynamic survey tool, streamlined microfrontend deployment, optimized SQL processes, and mentored teams for success."
+      description: "Accomplished Full-Stack Developer: Crafted a dynamic survey tool, streamlined microfrontend deployment, optimized SQL processes, and mentored teams for success."
     },
     {
       company: "JPMorgan Chase & Co.",
@@ -66,13 +66,23 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "AWS Cloud Practitioner",
-    "Java",
-    "Spring Boot",
-    "React",
-    "JavaScript",
-    "TypeScript",
-    "Oracle SQL"
+    {key:"Java", variant: "default"},
+    {key:"Spring Boot", variant: "default"},
+    {key:"React", variant: "default"},
+    {key:"JavaScript", variant: "default"},
+    {key:"TypeScript", variant: "default"},
+    {key:"Oracle SQL", variant: "default"},
+    {key:"Git", variant: "default"},
+  ],
+  certs: [
+    {key:"AWS Cloud Practitioner", variant: "secondary"}
+  ],
+  paradigms: [
+    {key:"Agile", variant: "outline"},
+    {key:"Test Driven Development (TDD)", variant: "outline"},
+    {key:"Object Oriented Programming (OOP)", variant: "outline"},
+    {key:"CI/CD", variant: "outline"},
+
   ],
   projects: [
     {
