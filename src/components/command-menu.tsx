@@ -36,7 +36,7 @@ export const CommandMenu = ({ links }: Props) => {
   const downloadResume = () => {
     const element = document.createElement("a");
     element.href = "/files/Samad_Virani_Resume.pdf";
-    element.download = "Samad_Virani_Reusme.pdf";
+    element.download = "Samad_Virani_Resume.pdf";
     document.body.appendChild(element);
     element.click();
   };
