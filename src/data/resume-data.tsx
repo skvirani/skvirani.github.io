@@ -1,4 +1,4 @@
-import { GitHubIcon, LinkedInIcon, ChaseIcon, HcssIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, ProcoreIcon, ChaseIcon, HcssIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Samad Karim Virani",
@@ -35,13 +35,23 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Procore",
+      link: "https://procore.com",
+      badges: ["Ruby on Rails", "React", "NestJS"],
+      title: "Senior Software Engineer",
+      logo: ProcoreIcon,
+      start: "2024",
+      end: "Present",
+      description: "Full-Stack Developer, focusing on Back-End."
+    },
+    {
       company: "JPMorgan Chase & Co.",
       link: "https://jpmorganchase.com",
       badges: ["Team Lead", "Spring Boot", "React"],
       title: "Senior Associate Software Engineer",
       logo: ChaseIcon,
       start: "2021",
-      end: "Present",
+      end: "2024",
       description: "Accomplished Full-Stack Developer: Crafted a dynamic survey tool, streamlined microfrontend deployment, optimized SQL processes, and mentored teams for success."
     },
     {
