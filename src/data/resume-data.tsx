@@ -3,10 +3,10 @@ import { GitHubIcon, LinkedInIcon, ProcoreIcon, ChaseIcon, HcssIcon } from "@/co
 export const RESUME_DATA = {
   name: "Samad Karim Virani",
   initials: "SKV",
-  location: "Houston, Texas, USA",
-  locationLink: "https://www.google.com/maps/place/Houston",
+  location: "Austin, Texas, USA",
+  locationLink: "https://www.google.com/maps/place/Austin",
   about: "Full-Stack Engineer",
-  summary:  "Seasoned Full-Stack Engineer driving successful project initiatives and fostering an innovative workplace culture. Proficient in Java, Typescript, React, Spring Boot, and Oracle SQL, with over 5 years of expertise crafting scalable solutions in the Fin-Tech sector.",
+  summary:  "Seasoned Full-Stack Engineer driving successful project initiatives and fostering an innovative workplace culture. Proficient in Java, Typescript, React, Spring Boot, and Oracle SQL, with over 5 years of expertise crafting scalable solutions in the Fin-Tech sector. Diving into Ruby on Rails.",
   avatarUrl: "https://avatars.githubusercontent.com/u/22201043?v=4",
   personalWebsiteUrl: "https://samadkvirani.com",
   contact: {
@@ -42,7 +42,7 @@ export const RESUME_DATA = {
       logo: ProcoreIcon,
       start: "2024",
       end: "Present",
-      description: "Full-Stack Developer, focusing on Back-End."
+      description: "Full-Stack Developer, focusing on Back-End. Developing conditional logic on schema driven forms."
     },
     {
       company: "JPMorgan Chase & Co.",
@@ -76,11 +76,12 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    {key:"Java", variant: "default"},
-    {key:"Spring Boot", variant: "default"},
+    {key:"Ruby on Rails", variant: "default"},
     {key:"React", variant: "default"},
     {key:"JavaScript", variant: "default"},
     {key:"TypeScript", variant: "default"},
+    {key:"Java", variant: "default"},
+    {key:"Spring Boot", variant: "default"},
     {key:"Oracle SQL", variant: "default"},
     {key:"Git", variant: "default"},
   ],
@@ -96,15 +97,14 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "YouTube Clone",
+      title: "Coffee Shop Ordering",
       techStack: [
         "Side Project",
         "In Progress",
         "React",
-        "Next.js",
-        "GCP",
+        "Ruby on Rails",
       ],
-      description: "An app that hosts and streams video and has user profiles with public and private videos.",
+      description: "An app that allows guests to order coffee from a selection of menu items.",
       logo: null,
     },
     {
