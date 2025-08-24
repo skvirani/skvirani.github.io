@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Austin, Texas, USA",
   locationLink: "https://www.google.com/maps/place/Austin",
   about: "Full-Stack Engineer",
-  summary:  "Seasoned Full-Stack Engineer driving successful project initiatives and fostering an innovative workplace culture. Proficient in Java, Typescript, React, Spring Boot, and Oracle SQL, with over 5 years of expertise crafting scalable solutions in the Fin-Tech sector. Diving into Ruby on Rails.",
+  summary:  "Seasoned Full-Stack Engineer driving successful project initiatives and fostering an innovative workplace culture. Proficient in Java, Typescript, React, Spring Boot, and Oracle SQL, with over 5 years of expertise crafting scalable solutions in the Fin-Tech sector. Diving into Ruby on Rails and NestJS.",
   avatarUrl: "https://avatars.githubusercontent.com/u/22201043?v=4",
   personalWebsiteUrl: "https://samadkvirani.com",
   contact: {
@@ -37,7 +37,7 @@ export const RESUME_DATA = {
     {
       company: "Procore",
       link: "https://procore.com",
-      badges: ["Ruby on Rails", "React", "NestJS"],
+      badges: ["NestJS", "React", "Ruby on Rails"],
       title: "Senior Software Engineer",
       logo: ProcoreIcon,
       start: "2024",
@@ -76,6 +76,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    {key:"NestJS", variant: "default"},
     {key:"Ruby on Rails", variant: "default"},
     {key:"React", variant: "default"},
     {key:"JavaScript", variant: "default"},
@@ -83,7 +84,6 @@ export const RESUME_DATA = {
     {key:"Java", variant: "default"},
     {key:"Spring Boot", variant: "default"},
     {key:"Oracle SQL", variant: "default"},
-    {key:"Git", variant: "default"},
   ],
   certs: [
     {key:"AWS Cloud Practitioner", variant: "secondary"}
@@ -97,14 +97,14 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Coffee Shop Ordering",
+      title: "Coffee Shop",
       techStack: [
         "Side Project",
         "In Progress",
-        "React",
-        "Ruby on Rails",
+        "NextJS",
+        "TailwindCSS",
       ],
-      description: "An app that allows guests to order coffee from a selection of menu items.",
+      description: "A coffee shop website for my personal brand. Built with NextJS and TailwindCSS. Still a work in progress.",
       logo: null,
     },
     {
