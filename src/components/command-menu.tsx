@@ -72,7 +72,7 @@ export const CommandMenu = ({ links }: Props) => {
                 window.print();
               }}
             >
-              <span>Print</span>
+              <span>Print this page</span>
             </CommandItem>
             <CommandItem
               onSelect={() => {

@@ -24,6 +24,7 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       }
     ],
+    resumePath: "/files/Samad_Virani_Resume.pdf" 
   },
   education: [
     {
