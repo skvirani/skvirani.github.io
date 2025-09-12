@@ -98,7 +98,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Coffee Shop",
+      title: "Sip'd Coffee",
       techStack: [
         "Side Project",
         "In Progress",
@@ -107,6 +107,10 @@ export const RESUME_DATA = {
       ],
       description: "A coffee shop website for my personal brand. Built with NextJS and TailwindCSS. Still a work in progress.",
       logo: null,
+      link: {
+        label: "Sip'd Coffee",
+        href: "https://sipdcoffee.com",
+      }
     },
     {
       title: "Force For Good",
